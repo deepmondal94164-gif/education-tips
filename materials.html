@@ -1,20 +1,163 @@
-<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Study Materials | Education Tips</title><link rel="stylesheet" href="style.css"></head><body>
-<header class="header"><div class="container nav"><a class="brand" href="index.html"><img src="logo.jpg" alt="Education Tips Logo" class="site-logo"><span>Education Tips</span></a><button class="menu" aria-label="Menu">☰</button><nav><a href="index.html#home">Home</a><a href="index.html#classes">Classes</a><a href="materials.html">Materials</a><a href="index.html#tests">Mock Tests</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a></nav></div></header>
-<main><section class="materials-hero"><div class="container"><span class="pill">📚 STUDY RESOURCES</span><h1>Study Materials</h1><p>Class ও subject অনুযায়ী Notes, Important Questions, Model Papers, Revision এবং Mock Tests।</p></div></section>
-<section class="section"><div class="container"><div class="filters"><button class="filter active" data-class="all">All</button><button class="filter" data-class="10">Class 10</button><button class="filter" data-class="11">Class 11</button><button class="filter" data-class="12">Class 12</button></div>
-<div class="material-grid">
-<article class="material-card" data-class="10" data-type="notes"><span class="material-icon">📖</span><div><span class="tag">Class 10 • Notes</span><h3>Life Science Notes</h3><p>আপনার PDF এখানে আপলোড করুন।</p><a class="btn small" href="materials/class-10-life-science-notes.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="10" data-type="important"><span class="material-icon">⭐</span><div><span class="tag">Class 10 • Important</span><h3>Important Questions</h3><p>গুরুত্বপূর্ণ প্রশ্নের PDF।</p><a class="btn small" href="materials/class-10-important-questions.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="10" data-type="model"><span class="material-icon">📝</span><div><span class="tag">Class 10 • Model</span><h3>Model Paper</h3><p>Practice model paper।</p><a class="btn small" href="materials/class-10-model-paper.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="11" data-type="notes"><span class="material-icon">📖</span><div><span class="tag">Class 11 • Notes</span><h3>Physics Notes</h3><p>Chapter-wise Physics notes।</p><a class="btn small" href="materials/class-11-physics-notes.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="11" data-type="notes"><span class="material-icon">📖</span><div><span class="tag">Class 11 • Notes</span><h3>Chemistry Notes</h3><p>Chapter-wise Chemistry notes।</p><a class="btn small" href="materials/class-11-chemistry-notes.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="11" data-type="notes"><span class="material-icon">📖</span><div><span class="tag">Class 11 • Notes</span><h3>Life Science Notes</h3><p>Chapter-wise Life Science notes।</p><a class="btn small" href="materials/class-11-life-science-notes.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="12" data-type="notes"><span class="material-icon">📖</span><div><span class="tag">Class 12 • Notes</span><h3>Physics Notes</h3><p>Board preparation notes।</p><a class="btn small" href="materials/class-12-physics-notes.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="12" data-type="notes"><span class="material-icon">📖</span><div><span class="tag">Class 12 • Notes</span><h3>Chemistry Notes</h3><p>Board preparation notes।</p><a class="btn small" href="materials/class-12-chemistry-notes.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="12" data-type="notes"><span class="material-icon">📖</span><div><span class="tag">Class 12 • Notes</span><h3>Life Science Notes</h3><p>Board preparation notes।</p><a class="btn small" href="materials/class-12-life-science-notes.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="10" data-type="mock"><span class="material-icon">🎯</span><div><span class="tag">Class 10 • Mock Test</span><h3>Mock Test</h3><p>Practice test PDF।</p><a class="btn small" href="materials/class-10-mock-test.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="11" data-type="mock"><span class="material-icon">🎯</span><div><span class="tag">Class 11 • Mock Test</span><h3>Mock Test</h3><p>Practice test PDF।</p><a class="btn small" href="materials/class-11-mock-test.pdf">View / Download PDF</a></div></article>
-<article class="material-card" data-class="12" data-type="mock"><span class="material-icon">🎯</span><div><span class="tag">Class 12 • Mock Test</span><h3>Mock Test</h3><p>Practice test PDF।</p><a class="btn small" href="materials/class-12-mock-test.pdf">View / Download PDF</a></div></article>
-</div>
-<div class="upload-guide"><h2>📤 নতুন Note কীভাবে যোগ করবেন?</h2><ol><li>GitHub repository-তে <b>Add file → Upload files</b> চাপুন।</li><li>PDF আপলোড করে <b>Commit changes</b> দিন।</li><li>PDF-টির নাম উপরের button-এর filename-এর মতো রাখলে সরাসরি কাজ করবে।</li></ol><p><b>উদাহরণ:</b> <code>materials/class-11-physics-notes.pdf</code></p><p>নতুন নাম হলে এই page-এর একটি নতুন material card-এ সেই PDF-এর link যোগ করতে হবে।</p></div>
-</div></section></main><footer><div class="container"><b>Education Tips</b><p>Online Class • Learn • Practice • Achieve</p><small>© 2026 Education Tips. All rights reserved.</small></div></footer><script src="script.js"></script><script src="materials.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Materials | Education Tips</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .materials-page{padding:40px 20px;min-height:70vh}
+    .materials-wrap{max-width:1000px;margin:auto}
+    .materials-title{text-align:center;margin-bottom:28px}
+    .materials-title h1{margin-bottom:8px}
+    .subject-section{margin:28px 0}
+    .subject-section h2{margin-bottom:14px}
+    .material-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .material-item{background:#fff;border-radius:14px;padding:18px;box-shadow:0 4px 18px rgba(0,0,0,.08)}
+    .material-item h3{margin:0 0 8px}
+    .material-item p{margin:0 0 14px;color:#667085}
+    .material-actions{display:flex;gap:9px;flex-wrap:wrap}
+    .material-btn{display:inline-block;padding:9px 14px;border-radius:9px;text-decoration:none;font-weight:600}
+    .view-btn{background:#0b63ce;color:#fff}
+    .download-btn{background:#eef4ff;color:#0b63ce}
+    .back-btn{display:inline-block;margin-bottom:20px;text-decoration:none;font-weight:600}
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="logo.jpg" alt="Education Tips Logo" class="site-logo">
+      <span>Education Tips</span>
+    </a>
+    <button class="menu" aria-label="Menu">☰</button>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#classes">Classes</a>
+      <a href="materials.html">Materials</a>
+      <a href="index.html#tests">Mock Tests</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="materials-page">
+  <div class="materials-wrap">
+    <a class="back-btn" href="index.html">← Back to Home</a>
+
+    <div class="materials-title">
+      <h1>Class 11 Study Materials</h1>
+      <p>Physics &amp; Chemistry — Notes, revision materials and PDF resources</p>
+    </div>
+
+    <section class="subject-section">
+      <h2>⚡ Class 11 Physics</h2>
+      <div class="material-list">
+
+        <article class="material-item">
+          <h3>01 — Units &amp; Measurement</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="01_Units_and_Measurement.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="01_Units_and_Measurement.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>02 — Motion in Straight Line</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="02_Motion_in_Straight_Line.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="02_Motion_in_Straight_Line.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>03 — Laws of Motion</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="03_Laws_of_Motion.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="03_Laws_of_Motion.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>04 — Work, Energy &amp; Power</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="04_Work_Energy_Power.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="04_Work_Energy_Power.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>05 — Gravitation</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="05_Gravitation.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="05_Gravitation.pdf" download>Download</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="subject-section">
+      <h2>🧪 Class 11 Chemistry</h2>
+      <div class="material-list">
+
+        <article class="material-item">
+          <h3>01 — Basic Concepts</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="01_Basic_Concepts.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="01_Basic_Concepts.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>02 — Atomic Structure</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="02_Atomic_Structure.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="02_Atomic_Structure.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>03 — Periodicity</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="03_Periodicity.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="03_Periodicity.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>04 — Chemical Bonding</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="04_Chemical_Bonding.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="04_Chemical_Bonding.pdf" download>Download</a>
+          </div>
+        </article>
+
+        <article class="material-item">
+          <h3>05 — Thermodynamics</h3>
+          <p>Chapter-wise revision notes</p>
+          <div class="material-actions">
+            <a class="material-btn view-btn" href="05_Thermodynamics.pdf" target="_blank">View PDF</a>
+            <a class="material-btn download-btn" href="05_Thermodynamics.pdf" download>Download</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
